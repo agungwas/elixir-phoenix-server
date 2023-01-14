@@ -36,11 +36,14 @@ defmodule HelloWorld.MixProject do
       {:phoenix, "~> 1.4.0"},
       {:phoenix_pubsub, "~> 1.1"},
       {:phoenix_ecto, "~> 4.0"},
-      {:ecto_sql, "~> 3.0"},
+      {:ecto, "~> 3.3.0"},
+      {:ecto_sql, "~> 3.3.0"},
+      {:mime, "~> 1.0"},
+      {:plug, "~> 1.7"},
       {:postgrex, ">= 0.0.0"},
       {:phoenix_html, "~> 2.11"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
-      {:gettext, "~> 0.11"},
+      {:gettext, "~> 0.17"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"}
     ]
