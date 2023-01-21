@@ -40,6 +40,8 @@ defmodule HelloWorld.MixProject do
       {:ecto_sql, "~> 3.3.0"},
       {:mime, "~> 1.0"},
       {:plug, "~> 1.7"},
+      {:poison, "~> 3.1"},
+      {:httpoison, "~> 1.5"},
       {:postgrex, ">= 0.0.0"},
       {:phoenix_html, "~> 2.11"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
