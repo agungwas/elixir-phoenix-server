@@ -65,3 +65,5 @@ config :hello_world, HelloWorld.Repo,
   database: "hello_world_dev",
   hostname: "localhost",
   pool_size: 10
+
+import_config "dev.secret.exs"
