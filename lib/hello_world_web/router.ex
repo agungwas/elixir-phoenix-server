@@ -20,7 +20,11 @@ defmodule HelloWorldWeb.Router do
   end
 
   scope "/product", HelloWorldWeb do
+
     get "/", ProductController, :index
+    post "/", ProductController, :create
+    put "/", ProductController, :update
+    delete "/", ProductController, :delete
   end
 
   # Other scopes may use custom stacks.
